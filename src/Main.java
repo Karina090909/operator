@@ -1,0 +1,18 @@
+import java.security.spec.RSAOtherPrimeInfo;
+
+public class Main {
+
+    public static void main(String[] args) {
+        int initialBalance = 100;
+        int addent = 1100;
+
+    int bonus = 0;
+        if (addent > 1000) {
+            bonus = addent / 100;
+        }
+
+        int finalBalance = initialBalance + addent + bonus;
+        System.out.println( "Итоговый баланс: " + finalBalance);
+        System.out.println("Бонус: " + bonus);
+        }
+    }
